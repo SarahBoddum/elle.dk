@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=PT+Sans+Caption&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(152, 42, 42);
+    border-bottom-style: solid;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+#logo{
+    height: 50px;
+    padding-right: 100px;
+}
+
+#abonner{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 12px;
+}
+
+#pil{
+    height: 20px;
+}
+
+
+header nav a{
+    font-family: 'montserrat';
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+main{
+    padding-top: 70px;
+}
+
+#zendaya{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.flexbox{
+    display: flex;
+    background-color: rgb(247, 238, 224);
+    width:100%;
+    height: 800px;
+}
+
+.beigebox{
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(240, 237, 229);
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.kort{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.kort section{
+    width:350px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.kort section h1{
+    font-family: montserrat;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 50px;
+}
+
+.kort section h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.kort section h2:hover{
+    color: rgb(152, 42, 42);
+}
+
+.kort section h4{
+    font-family: montserrat;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.pladsholder{
+    width: 100%;
+    height: 350px;
+    background-color: aquamarine;
+}
+
+.sortlinje{
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.linje{
+    width: 30px;
+    height: 1px;
+    background-color: rgb(152, 42, 42);
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.smooth{
+    transition-property: background-color, color, letter-spacing;
+    transition-duration: 0.3s, 1s, 0.3s;;
+    transition-timing-function: ease-out, ease-in, ease-out;
+}
+
+.smooth:hover, .smooth:focus{
+    background-color: rgb(202, 171, 108);
+    letter-spacing: 5px;
+    color:rgb(81, 99, 139);
+}
+
+article{
+    margin:auto;
+    text-align: center;
+}
+article img{
+    margin-top: 70px;
+    padding-top: 30px;
+    width: 65%;
+}
+
+.hvidbox{
+    width: 55%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    margin-top: -50px;
+    padding: 10px;
+    /*hvad med z-index 1?*/
+}
+
+article h2{
+    font-family: montserrat;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 50px;
+}
+
+article h1{
+    font-size: 50px;
+    font-weight: lighter;   
+}
+
+article h6{
+    text-align: right;
+    font-family: montserrat;
+    padding: 10px;
+}
+
+article h4{
+    font-family: montserrat;
+    font-size: 10px;
+    padding: 20px;
+}
+
+article p{
+    text-align: left;
+    padding: 30px;
+}
